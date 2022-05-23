@@ -1,9 +1,33 @@
-body, h1, h2, h3, h4, h5, h6, p, a {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   margin: 10;
   font-family: Veranda, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: rgb(28, 17, 41);
+}
+
+/*title_maincard, body_maincard*/
+
+.title_maincard {
+  font-size: 72pt;
+  font-weight: bold;
+  border-style: solid;
+  border-color: green;
+}
+
+.body_maincard {
+  font-size: 15pt;
+  font-weight: normal;
+  border-style: solid;
+  border-color: blue;
 }
 
 /*
